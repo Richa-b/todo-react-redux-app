@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AddTodo from "./components/AddTodo";
+import AddTodo from "./containers/AddTodoContainer";
 import ToDosList from "./components/ToDosList";
 import FilterList from "./components/FilterList";
 
