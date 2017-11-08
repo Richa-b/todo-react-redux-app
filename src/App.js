@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AddTodo from "./containers/AddTodoContainer";
-import ToDosList from "./components/ToDosList";
+import ToDosList from "./containers/ToDoListContainer";
 import FilterList from "./components/FilterList";
 
 class App extends Component {

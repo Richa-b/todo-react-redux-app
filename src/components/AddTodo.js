@@ -24,7 +24,8 @@ export class AddTodo extends Component {
                 this.setState({todo: new Todo(e.target.value, Number(todoCount) + 1)})
             }}
                    value={todo.title}/>
-            <button onClick={() => {onAddClick(todo)}}> Add Todo</button>
+            <button onClick={() => {onAddClick(todo);
+            this.setState({todo: new Todo('')})}}> Add Todo</button>
         </div>);
     }
 }
