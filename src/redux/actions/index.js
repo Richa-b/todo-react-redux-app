@@ -5,3 +5,7 @@ export const addTodo = (todo) => {
 export const toggleCompletionInTodo = (todo) => {
     return {type : 'TOGGLE_COMPLETION' , todo : todo}
 }
+
+export const selectFilterOption = (filterOption) => {
+    return {type : 'SWITCH_FILTER_OPTION' , filterOption : filterOption}
+}

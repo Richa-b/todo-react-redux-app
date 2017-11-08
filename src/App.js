@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import AddTodo from "./containers/AddTodoContainer";
 import ToDosList from "./containers/ToDoListContainer";
-import FilterList from "./components/FilterList";
+import FilterList from "./containers/FilterListContainer";
 
 class App extends Component {
     render() {
