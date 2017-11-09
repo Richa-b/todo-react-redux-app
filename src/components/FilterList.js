@@ -18,14 +18,14 @@ export default class FilterList extends Component {
                         return(
                             <span key={filterOptionValue} onClick={() => onSelectFilterOption(filterOptionValue)}
                                      id={filterOptionValue}> {filterOptionsList[filterOptionValue]}
-                                     {index === (filterKeys.length -1)? "" :" ,"} </span>
+                                     {index === (filterKeys.length -1)? "" :", "} </span>
                               )
 
                     } else {
                         return ([<a key={filterOptionValue} href={'#'} onClick={() =>
                                 onSelectFilterOption(filterOptionValue)}
                                 id={filterOptionValue}> {filterOptionsList[filterOptionValue]} </a>,
-                                <span key={filterOptionValue + "_span"}>{index === (filterKeys.length -1)? "" :" ,"}</span> ]
+                                <span key={filterOptionValue + "_span"}>{index === (filterKeys.length -1)? "" :", "}</span> ]
 
                         )
                     }
